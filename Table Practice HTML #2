@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        table {border: solid lightgray 1px; font-size: 16px; border-collapse: collapse;}
+        caption {background-color: lightgray; padding: 0.5em; font-weight: bold;}
+        tr td, th{border: solid lightgray 1px;}
+        th {text-align: right; padding: 0.25em;}
+        tr:nth-of-type(4n+1) th:first-of-type { padding: 2em 2em 2em 2em; text-align: center;} 
+        td {padding: 0.25em;}
+        
+        
+        </style>
+    </head>
+
+<table>
+    <caption>Table Exercise 2</caption>
+    <tr>
+        <th rowspan="4">Texas</th>
+        <th>Admission to Union:</th>
+        <td>December 29, 1845</td>
+    </tr>
+    <tr>
+        <th>Captial:</th>
+        <td>Austin</td>
+    </tr>
+    <tr>
+        <th>State Flower:</th>
+        <td>Bluebonnet</td>
+    </tr>
+    <tr>
+        <th>State Animal:</th>
+        <td>Armadillo</td>
+    </tr>
+    
+    <tr>
+        <th rowspan="4">Georgia</th>
+        <th>Admission to Union:</th>
+        <td>July 15, 1870 (Restored to the Union)</td>
+    </tr>
+    <tr>
+        <th>Captial:</th>
+        <td>Atlanta</td>
+    </tr>
+    <tr>
+        <th>State Flower:</th>
+        <td>Cherokee rose</td>
+    </tr>
+    <tr>
+        <th>State Animal:</th>
+        <td>White-tailed deer</td>
+    </tr>
+    
+    <tr>
+        <th rowspan="4">Colorado</th>
+        <th>Admission to Union:</th>
+        <td>August 1, 1876</td>
+    </tr>
+    <tr>
+        <th>Captial:</th>
+        <td>Denver</td>
+    </tr>
+    <tr>
+        <th>State Flower:</th>
+        <td>Colorado Blue Columbine</td>
+    </tr>
+    <tr>
+        <th>State Animal:</th>
+        <td>Rocky Mountain bighorn sheep</td>
+    </tr>
+    </table>
+    
+</html>
