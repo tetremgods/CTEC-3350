@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    <style>
+        caption {color: black; background-color: lightgrey; font-weight: bold; padding: 0.5em;}
+        table {cellspacing: 0; border-collapse: collapse; font-family: Verdana, sans-serif; font-size: 16px;}
+        th {background-color: black; color: white; border: solid lightgrey 1px; padding: 0.5em;}
+        td {border: solid lightgrey 1px; padding: 0.25em;}
+        tr:nth-of-type(even) {background-color: lightgrey;}
+        
+        </style>
+    </head>
+    
+    <table>
+        <caption>Teranecia's School List</caption>
+    <tr>
+        <th rowspan="2"> School Name</th>
+        <th colspan="2">Years</th>
+        <th rowspan="2">Degree Awarded</th>
+        </tr>
+    <tr>
+        <th>Start</th>
+        <th>End</th>
+        </tr>
+    <tr>
+        <td>Simms Elementary</td>
+        <td>2000</td>
+        <td>2005</td>
+        <td>Elementary School</td>
+        </tr>
+    <tr>
+        <td>LaMarque Middle School</td>
+        <td>2005</td>
+        <td>2009</td>
+        <td>Middle School</td>
+        </tr>
+    <tr>
+        <td>LaMarque High School</td>
+        <td>2009</td>
+        <td>2013</td>
+        <td>High School</td>
+        </tr>
+    <tr>
+        <td>College of the Mainland</td>
+        <td>2011</td>
+        <td>2013</td>
+        <td>AA-General Studies</td>
+        </tr>
+    <tr>
+        <td>University of Texas at Austin</td>
+        <td>2013</td>
+        <td>2015</td>
+        <td>Incomplete</td>
+        </tr>
+    <tr>
+        <td>University of Texas, Arlington</td>
+        <td>2016</td>
+        <td>N/A</td>
+        <td>In progress</td>
+        </tr>
+    
+    </table>
+
+</html>
