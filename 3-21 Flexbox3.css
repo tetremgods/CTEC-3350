@@ -1,0 +1,88 @@
+/* External Font Embed */
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400,400i|Montserrat:200,200i,300,300i,400');
+/* End of External Font Embed */
+
+* {
+  padding:0;
+  margin:0;
+}
+
+html, body {
+  font-size: 24px;
+}
+
+body {
+  color:#444;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.618em;
+  line-height: 3rem; 
+  margin: 1rem auto 2rem auto;
+  color: #888888;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.618em;
+  line-height: 2rem;
+  margin: 1rem auto 2rem auto;
+  color: #cccccc;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1em;
+  line-height: 1.25rem;
+  margin: 1rem auto;
+  color: white;
+}
+
+p {
+  font-size: 0.618em;
+  line-height: 0.75rem; 
+  margin: 0.25rem auto 0.75rem auto;
+  color: #222222;
+}
+
+img {
+width: 90%;
+}
+
+/* BIO COMPONENT */
+.bio {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.bio-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  border: 1px solid #444444;
+}
+
+.bio-title {
+	background-color: black;
+	width: 100%;
+	}
+
+.bio-pic { 
+	width: 100%;
+	}
+	
+.bio-description {
+	width: 100%;
+	}
