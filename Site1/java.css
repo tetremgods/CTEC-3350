@@ -1,0 +1,123 @@
+body { 
+    width: 80%; 
+    margin: auto;
+    background-color: beige;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    }
+
+main {
+    width: 70%;
+}
+
+h1 {
+  font-size: 50.517pt;
+  line-height: 3rem; 
+  text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  font-size: 28.43pt;
+  line-height: 2rem;
+  text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer {
+    background-color: white;
+    font-size: 12pt;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+}
+footer p {
+    font-size: 12pt;
+}
+
+p,ul {
+  font-size: 16pt;
+  line-height: 1.25rem; 
+}
+a {
+    color: #990033;
+}
+a:visited {
+    color: #660033;
+}
+.sidenav-trigger {
+    display: none;
+}
+label[for=sidenav-trigger] {
+    display: none;
+}
+.sidenav {
+    width: 250px;
+    margin: 10px;
+}
+.sidenav-content {
+    width: 230px;
+    padding: 10px;
+    background-color: white;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+}
+.sidenav-content li {
+    margin: 9px;
+    font-size: 28.43pt;
+    padding: 6px;
+    text-align: center;
+}
+.sidenav-content li a {
+    text-decoration: none;
+}
+.sidenav-icons {
+     width: 250px;
+    background-color: white;
+    text-align: center;
+}
+.sidenav-icons a i {
+   font-size: 28.43pt;
+    margin: 10px;
+}
+
+
+
+
+@media screen and (min-width:320pt) and (max-width: 480em)
+{
+  html, body {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width:481pt) and (max-width: 720pt)
+{
+  html, body {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width:721pt) and (max-width: 960pt)
+{
+  html, body {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 961pt)
+{
+    
+}
