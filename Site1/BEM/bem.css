@@ -1,0 +1,213 @@
+body { 
+    width: 80%; 
+    margin: auto;
+    background-color: gray;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    }
+h1 {
+  font-size: 50.517pt;
+  line-height: 3rem; 
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  font-size: 28.43pt;
+  line-height: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3{
+   font-size: 21.328pt;
+    line-height: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h4,dt{
+    font-size: 16pt;
+    line-height: 1.25rem;
+    font-family: 'Minion Pro', serif;
+    font-weight: bold;
+}
+
+p,ul,dd {
+  font-size: 16pt;
+  line-height: 1.25rem;
+    font-family: 'Minion Pro', serif;
+}
+
+pre{
+    background-color: white;
+    border: solid black 3pt;
+    width: 70%;
+}
+
+
+#setup {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+#type {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+#type .type-title {
+    width: 100%;
+    text-align: center;
+}
+.type-example {
+    background-color: lightgray;
+    border: solid white 3pt;
+    width: 50%;
+}
+
+#site-nav {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#site-nav h2 {
+    width: 100%;
+    text-align: center;
+}
+
+#site-menu {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+#site-gallery-example {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+#gallery {
+            width: 70%;
+            height: 30em;
+            background-color: black;
+            display: -webkit-flex;
+            display: flex;
+            align-content: space-around;
+            flex-wrap: wrap;
+        }
+        #gallery ul {
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start; 
+            align-content: space-around;
+            justify-content: space-around;
+            width: 100%;
+        }
+        #gallery li {
+            display: inline-block; 
+            padding: 10px; 
+        }
+        #gallery img {
+            border-style: none;
+        }
+        #gallery a {
+            text-decoration: none; 
+            color: #333; 
+            font-style: italic;}
+        #gallery span {
+            display: none;
+            left: 46em;
+            top: 75em;
+            position: fixed;
+        }
+        #gallery span img {
+            width: 500px;
+        }
+        #gallery a:hover span {
+            display: block; 
+        }
+
+#site-activities {
+  display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;  
+}
+
+a {
+    color: #990033;
+}
+a:visited {
+    color: #660033;
+}
+.sidenav-trigger {
+    display: none;
+}
+label[for=sidenav-trigger] {
+    display: none;
+}
+.sidenav {
+    width: 250px;
+    margin: 10px;
+}
+.sidenav-content {
+    width: 230px;
+    padding: 10px;
+    background-color: white;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+}
+.sidenav-content li {
+    margin: 9px;
+    font-size: 28.43pt;
+    padding: 6px;
+    text-align: center;
+}
+.sidenav-content li a {
+    text-decoration: none;
+}
+.sidenav-icons {
+     width: 250px;
+    background-color: white;
+    text-align: center;
+}
+.sidenav-icons a i {
+   font-size: 28.43pt;
+    margin: 10px;
+}
