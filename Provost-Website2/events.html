@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta lang="en">
+    <meta charset="utf-8">
+    <meta name="description" content="Come enjoy the sound of good music and good coffee at Java Jam Cafe.">
+    
+    <link rel="stylesheet" href="Assets/java.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="https://use.fontawesome.com/3b2b13a7c6.js"></script>
+
+    </head>
+    
+<body>
+    
+    <div class="sidenav">
+        
+        <img src="Assets/images/logo.png" class="sidenav-logo" width="250px" height="250px">
+        
+        <a class="sidenav-toggle"><i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+    
+        <ul class="sidenav-content">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>         
+            <li><a href="events.html">Events</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+        <div class="sidenav-icons">
+            <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    
+    <main class="main-events">
+        <div class="events-gallery">
+            <h2 class="events-gallery-title">Snaps from Last Week</h2>
+            <div id="gallery">
+                <div class="gallery-preview">
+                    <img onmouseover="getElementById('preview').src=this.src" id="img1" src="gallery/1.jpg" alt="Cafe counter and menu"/>
+	               <img onmouseover="getElementById('preview').src=this.src" id="img2" src="gallery/2.jpg" alt="Barista making a drink"\/>
+	               <img onmouseover="getElementById('preview').src=this.src" id="img3" src="gallery/3.jpg" alt="Female group performance"\/>
+	               <img onmouseover="getElementById('preview').src=this.src" id="img4" src="gallery/4.jpg" alt="Empty Java Jam Cafe"\/>
+                </div>
+                <div class="gallery-largeimg">
+                    <img id="preview" src="gallery/1.jpg" alt="Cafe counter and menu"/>
+                </div>
+                
+        </div>
+        </div>
+        
+        <div class="events-timeline">
+            <h2 class="events-timeline-title">Upcoming Events</h2>
+            <ul class="events-timeline-list">
+                <li>April 9 - Open Mic Night. <a href="signup.html">Sign up here!</a></li>
+                <li>April 14 - The Marcus Nelson Band</li>
+                <li>April 23 - Sharlot Green Spoken Word</li>
+                <li>April 30 - Poets and Duets Night. <a href="signup.html">Sign up here!</a></li>
+            </ul>
+        </div>
+    
+    
+    </main>
+     
+    <footer>
+        <div class="footer-newsletter">
+        <h4 class="footer-newsletter-title">Enter your email to subscribe to our monthly newsletter.</h4>
+        <form id="NewsletterSubscription" method="post">
+            <table class="footer-newsletter-form">
+                <tr> 
+                    <td>
+                        <input name="FromEmailAddress" type="text" maxlength="60" style="width: 340px;" />
+                    </td> </tr> 
+                <tr> 
+                    <td><input id="Submit" name="Submit" type="submit" value="Submit" />
+                    </td> </tr>
+            </table>
+            </form>
+        </div>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">Jobs</a>
+            <a href="assets.html">Credits</a>
+            <p class="copyright">Copyright @ Teranecia Provost 2017</p>
+        </div>
+        <div class="footer-contact">
+            <p>12312 Main Street</p>
+            <p>Mountain Home, CA 93923</p>
+            <p>888-555-5555</p>
+        </div>
+        <div class="footer-map">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=12312 Main Street, Mountain House, CA, United States, &t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><script src="http://www.embedgooglemap.net/mapscript.js"></script><br>embed google map by <a href="http://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{overflow:hidden;height:200px;width:200px;}.gmap_canvas {background:none!important;height:200px;width:200px;}</style></div>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="Assets/food-menu.js"></script>
+    </footer>
+    </body>
+</html>
